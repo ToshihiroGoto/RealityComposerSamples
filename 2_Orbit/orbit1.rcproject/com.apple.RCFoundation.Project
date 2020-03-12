@@ -49,33 +49,6 @@
                                     }
                                   ],
                                   "__version" : 1
-                                },
-                                {
-                                  "__content" : [
-                                    {
-                                      "configurationBox" : {
-                                        "configuration" : {
-                                          "axis" : [
-                                            0,
-                                            1,
-                                            0
-                                          ],
-                                          "direction" : "clockwise",
-                                          "duration" : 1,
-                                          "iterations" : 1,
-                                          "target" : [
-                                            "9BA3CFDD-05CA-4D1A-97A2-70C717E74BC9"
-                                          ]
-                                        },
-                                        "name" : {
-                                          "type" : "spin"
-                                        }
-                                      },
-                                      "identifier" : "63AF1FF4-FB83-4836-AFC0-1647ECD4E80B",
-                                      "isEnabled" : true
-                                    }
-                                  ],
-                                  "__version" : 1
                                 }
                               ],
                               "identifier" : "7CD33E42-8019-4180-B604-C9C96831DC1B",
