@@ -1,0 +1,262 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+                {
+                  "__content" : [
+                    {
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "force" : [
+                                            0,
+                                            4.3301267623901367,
+                                            -2.5
+                                          ],
+                                          "target" : [
+                                            "8417FBE6-C646-49CA-B2D9-F930949EB950"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "physics"
+                                        }
+                                      },
+                                      "identifier" : "BB1F299B-591F-4741-AC4E-CC6E998B73BF",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "9EEF11AF-9412-4553-8B70-6BF0EFEEAC2A",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.364705890417099,
+                        0.74117648601531982,
+                        0.69019609689712524,
+                        1
+                      ],
+                      "identifier" : "56FE9114-6529-4B8A-9770-7C909F11B542",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "ビヘイビア",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "target" : [
+                                    "8417FBE6-C646-49CA-B2D9-F930949EB950"
+                                  ]
+                                },
+                                "name" : "tapTarget"
+                              },
+                              "identifier" : "E4DE3069-32DD-4AD9-9CF2-56FDBCF3FA67",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 2
+                }
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "hasGroundPlane" : true,
+              "identifier" : "8B01E63E-1700-4C73-9053-DDFADA8A9FCD",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "4EC7DF86-A0FA-44DC-898E-011C353F111E" : null,
+                  "35D0D95F-F740-4366-A1F8-845BC38C29D7" : null,
+                  "84E13A3C-8DE0-429E-B22E-DD9FAB9B4D1E" : null,
+                  "06938D38-BE35-4BD2-AB7C-1AF7071D246D" : null,
+                  "C5181139-1EDC-4F58-AA84-375FEBD805DA" : null,
+                  "CDC6A953-94BC-4325-8D71-416213DC61A3" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Warp Marble 2"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Realistic"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "iconicItem" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "77CDD064-E6FD-440B-B83C-53BF863C2572"
+                                }
+                              ]
+                            ]
+                          }
+                        },
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "2188D273-9B80-4D60-9232-A1D3E63A4710"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.WarpMarble2.8eaa849f-55b5-440d-8da6-2edd9d7f7567",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "8417FBE6-C646-49CA-B2D9-F930949EB950"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "dynamic"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        20,
+                        -2.9924311315097703e-22,
+                        -1.1210387714598537e-43,
+                        0,
+                        2.9924311315097703e-22,
+                        20,
+                        1.2705494208814505e-20,
+                        0,
+                        -1.1210387714598537e-43,
+                        -1.2705494208814505e-20,
+                        20,
+                        0,
+                        0,
+                        0.19999337196350098,
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  "Cube" : null,
+                  "Plate" : null
+                },
+                "factory" : null
+              },
+              "title" : "シーン",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.86022895574569702,
+                  -0.50990784168243408,
+                  0,
+                  0,
+                  0.50990784168243408,
+                  0.86022895574569702,
+                  0,
+                  -0.38327422738075256,
+                  1.1768633127212524,
+                  1.6480066776275635,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 4
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}
